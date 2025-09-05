@@ -1,0 +1,48 @@
+---
+title: "Countdown Assignment"
+author: "Olivia Whitlock"
+format: pdf
+---
+
+# Instructions (read me)
+
+1.  Create a **new RStudio Project** (File → New Project… → New Directory → New Project).
+
+2.  **Save this file** in the project as `countdown.qmd`.
+
+3.  In the next section, **insert a screenshot** of your draw (the six numbers and the target).
+
+    ![](images/clipboard-3932463682.jpeg)
+
+4.  In the code chunk under **“Your Solution”**, write an expression that reaches the target **using only the given numbers** once each, with `+ - * /` and parentheses.
+
+5.  Your **last line must start** `answer <-` and evaluate to the **exact target**.
+
+6.  Render (Quarto → Render).
+
+7.  Commit & push to GitHub. Submit the repository link in Blackboard.
+
+------------------------------------------------------------------------
+
+# Screenshot of Your Draw
+
+> Replace the path below with your actual screenshot file. Put your image inside a folder like `assets/` or `images/` in **this** project.
+
+![](images/clipboard-3932463682.jpeg)
+
+# My Countdown Game
+
+**Numbers:** (7, 8, 10, 2, 9, 3) **Goal:** (518)
+
+------------------------------------------------------------------------
+
+# My Solution
+
+```{r}
+# Replace the expression below with your solution.
+# Use only the numbers above, each at most once, with + - * / and parentheses!
+
+answer <-((7*2)+((9*8)*(10-3))) # <-- example; change this to your own solution
+
+answer 
+```
